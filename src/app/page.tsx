@@ -12,18 +12,6 @@ export default function Home() {
             height="315"
             src="https://www.youtube.com/embed/4fwkVpSyL3Q?si=R8qPdQWs3tULPAIO"
             title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </li>
-        <li className={classList}>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/4fwkVpSyL3Q?si=R8qPdQWs3tULPAIO"
-            title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
@@ -34,7 +22,16 @@ export default function Home() {
             height="315"
             src="https://www.youtube.com/embed/4fwkVpSyL3Q?si=R8qPdQWs3tULPAIO"
             title="YouTube video player"
-            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </li>
+        <li className={classList}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4fwkVpSyL3Q?si=R8qPdQWs3tULPAIO"
+            title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
