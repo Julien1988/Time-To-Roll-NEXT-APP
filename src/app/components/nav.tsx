@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className='pt-4 pb-4'>
            <ul className='flex auto justify-around'>
                <li>
-                   <Link href='/' className={classString}>Acceuil</Link>
+                   <Link className={classString} href='/' >Acceuil</Link>
                </li>
                <li>
                    <Link className={classString} href='#'>Qui sommes-nous ?</Link>
