@@ -1,11 +1,14 @@
-import Playlist from "@/app/components/playList";
+import { LastVideos } from "@/app/components/lastVideos";
 
 export default async function Home() {
-  const classList: string = "p-2";
   return (
     <main className={"p-6 text-white"}>
-      <h1 className={"text-2xl"}>Nos derniers AP :</h1>
-      <Playlist />
+      <div>
+        <h1 className={"text-2xl"}>Nos derniers AP :</h1>
+        <ul>
+          <LastVideos />
+        </ul>
+      </div>
     </main>
   );
 }
